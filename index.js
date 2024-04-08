@@ -68,9 +68,9 @@ function clickSimulator(historyArray) {
         alert("don't work" + ss);
         break;
     }
-  }, 100);
+  }, 0);
 
-  return new Promise((resolve) => setTimeout(resolve, 1000)); //after click simulator is done, then return promise
+  return new Promise((resolve) => setTimeout(resolve, 10)); //after click simulator is done, then return promise
 }
 // function clickSimulator(historyArray) {
 //   for (let i = 0; i < historyArray.length; i++) {
